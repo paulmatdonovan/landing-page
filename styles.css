@@ -120,3 +120,216 @@ nav .sideMenuButton {
     font-size: 20px;
     margin-left: 50px;
 }
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+}
+
+.side1 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: steelblue;
+}
+
+.side1 button {
+    width: 200px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+@media screen and(max-width:980px) {
+    .side-2 img {
+        width: 350px;
+    }
+
+    .side1 h1 {
+        font-size: 40px;
+    }
+
+    .side1 p {
+        font-size: 17px;
+    }
+
+    .line {
+        margin-top: 80px;
+    }
+}
+
+@media screen and(max-width:600px) {
+    .side-1 h1 {
+        font-size: 30px;
+    }
+}
+
+section .topic a {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about .boxes .box {
+    margin: 10px 20px;
+    max-width: calc(100%/3-50px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.content .title {
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.title {
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.contactMenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input2 {
+    margin-top: 10px;
+}
+
+.label1 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.input2 input {
+    border-color: rgb(252, 244, 244);
+    width: 400px;
+    height: 50px;
+}
+
+.button {
+    margin-top: 17px;
+    height: 50px;
+    width: 175px;
+    padding: 20px 15px;
+}
+
+.button button:hover {
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #8cc099;
+}
+
+.rightside1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+.title1 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.content1 {
+    width: 450px;
+    margin-top: 2px;
+    color: grey;
+}
+
+footer {
+    background: var(--primary-color);
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+footer .footer span {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+footer .footer span a {
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+footer .footer span a:hover {
+    text-decoration: underline;
+}
+
+@media screen and(max-width: 1060px) {
+    .contactMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightside1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .content1 {
+        width: 100%;
+        margin-top: 2px;
+        color: grey;
+    }
+
+    .side2 img {
+        width: 95%;
+        height: 90%;
+    }
+}
+
+@media screen and(max-width:600px) {
+    .side2 img {
+        width: 100%;
+    }
+
+    section .topic a {
+        font-size: 20px;
+    }
+
+    section .topic p {
+        font-size: 5px;
+    }
+
+    .about .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
