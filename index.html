@@ -12,7 +12,7 @@
     <nav>
         <div class="heading">Landing Page</div>
         <!-- this is a unicode for hamburger menu  -->
-        <span class="sideMenuButton" id="sideNavigationBar" onclick="openNavbar()">&#9776</span>
+        <span class="sideMenuButton" onclick="openNavbar()">&#9776</span>
         <div class="navbar">
             <ul>
                 <li><a href="#Home">Home</a></li>
@@ -22,12 +22,13 @@
         </div>
     </nav>
 
-    <div class="sideNavigationBar" id="sideNavigationBar"><a href="#" class="closeButton"
-            onclick="closeNavbar()">&#x274C</a>
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">&#x274C</a>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Signup</a>
     </div>
+
     <div class="line" id="Home">
         <div class="side1">
             <h1>P M Donovan</h1>
@@ -109,8 +110,8 @@
                     <div class="input2">
                         <input type="text" placeholder="Enter your password here">
                     </div>
-                    <div class="button">
-                        <button>Sign Up</button>
+                    <div>
+                        <button class="button">Sign Up</button>
                     </div>
                 </div>
                 <div class="input3">
