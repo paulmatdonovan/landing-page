@@ -61,7 +61,7 @@ nav .sideMenuButton {
     display: none;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:600px) {
 
     nav .sideMenuButton {
         display: flex;
@@ -331,5 +331,9 @@ footer .footer span a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .about .boxes .box {
+        max-width: 70%;
     }
 }
